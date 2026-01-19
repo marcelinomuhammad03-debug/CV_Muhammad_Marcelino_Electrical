@@ -1,0 +1,85 @@
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  margin: 0;
+  background: #f4f6f8;
+  color: #333;
+}
+
+header {
+  background: linear-gradient(135deg, #0b5ed7, #003f88);
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 36px;
+}
+
+header h2 {
+  margin: 8px 0;
+  font-weight: 400;
+}
+
+main {
+  padding: 25px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+section {
+  background: white;
+  padding: 25px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+h3 {
+  color: #0b5ed7;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+.skills span {
+  display: inline-block;
+  background: #e9f0ff;
+  color: #0b5ed7;
+  padding: 8px 12px;
+  margin: 6px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.button {
+  display: inline-block;
+  background: #0b5ed7;
+  color: white;
+  padding: 12px 18px;
+  margin-top: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.button:hover {
+  background: #003f88;
+}
+
+footer {
+  background: #212529;
+  color: white;
+  text-align: center;
+  padding: 12px;
+}
+
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 26px;
+  }
+}
+
